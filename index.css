@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url(images/pxfuel.jpg);
+    background-size: cover;
+    color: #a17145;
+    user-select: none;
+   
+}
+
+
+.container {
+    display: flex;
+    flex-direction:column;
+    max-width: 320px;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+   
+}
+
+input {
+    color: #43301e;
+    background-color: #d7da0c74;
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px;
+    
+    
+}
+
+button {
+    
+    color: #FDFDFD;
+    background-color: #79102399;
+    border: 0;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+button:hover {
+    background-color: #bfb2be;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: linen;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul li:hover {
+    background-color: blush;
+    cursor: pointer;
+    animation: reflection 0.5s infinite alternate;
+}
+@keyframes  reflection {
+    0% {
+        box-shadow: 0 0 10px red;
+    }
+    100% {
+        box-shadow: 0 0 20px 10px white;
+    }
+}
+
+.grow {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+}
