@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 10px;
     font-family:'Times New Roman', Times, serif;
-    background-image: url(images/pxfuel.jpg);
+    background-image: url(pxfuel.jpg);
     background-size: cover;
     color: #a17145;
     user-select: none;
